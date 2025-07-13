@@ -5,7 +5,7 @@
     <section class="relative w-full h-screen">
     <div
       class="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed"
-      style="background-image: url('/barbershop/B18.png')"
+      style="background-image: url('/barbershop_webp/B18.webp')"
     ></div>
     <div class="absolute inset-0 bg-black/70"></div>
 
@@ -35,7 +35,7 @@
     <!-- Imagen izquierda -->
     <div class="w-full md:w-1/2">
       <img
-        src="/barbershop/fondo2.jpg"
+        src="/barbershop_webp/fondo2.webp"
         alt="Barbería"
         class="w-full h-auto rounded-lg shadow-lg object-cover"
       />
@@ -60,7 +60,7 @@
     <!-- Imagen derecha -->
     <div class="w-full md:w-1/2">
       <img
-        src="/barbershop/fondo4.jpg"
+        src="/barbershop_webp/fondo4.webp"
         alt="Ambiente del local"
         class="w-full h-auto rounded-lg shadow-lg object-cover"
       />
@@ -171,15 +171,15 @@ import { ref } from 'vue'
 const showCalendlyModal = ref(false)
 
 const imagenes = [
-  '/barbershop/B12.png',
-  '/barbershop/B17.png',
-  '/barbershop/B15.png',
-  '/barbershop/B11.png',
-  '/barbershop/B16.png',
-  '/barbershop/B14.png',
-  '/barbershop/B7.jpeg',
-  '/barbershop/B8.jpeg',
-  '/barbershop/B13.png',
+  '/barbershop_webp/B12.webp',
+  '/barbershop_webp/B17.webp',
+  '/barbershop_webp/B15.webp',
+  '/barbershop_webp/B11.webp',
+  '/barbershop_webp/B16.webp',
+  '/barbershop_webp/B14.webp',
+  '/barbershop_webp/B7.webp',
+  '/barbershop_webp/B8.webp',
+  '/barbershop_webp/B13.webp',
 ]
 
 </script>

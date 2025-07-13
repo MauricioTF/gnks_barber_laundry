@@ -5,7 +5,7 @@
     <section class="relative w-full h-screen">
     <div
       class="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed"
-      style="background-image: url('/laundry/fondo1.jpg')"
+      style="background-image: url('/laundry_webp/fondo1.webp')"
     ></div>
     <div class="absolute inset-0 bg-black/70"></div>
 
@@ -35,7 +35,7 @@
     <!-- Imagen izquierda -->
     <div class="w-full md:w-1/2">
       <img
-        src="/laundry/fondo2.jpg"
+        src="/laundry_webp/fondo2.webp"
         alt="Barbería"
         class="w-full h-auto rounded-lg shadow-lg object-cover"
       />
@@ -60,7 +60,7 @@
     <!-- Imagen derecha -->
     <div class="w-full md:w-1/2">
       <img
-        src="/laundry/fondo3.jpg"
+        src="/laundry_webp/fondo3.webp"
         alt="Ambiente del local"
         class="w-full h-auto rounded-lg shadow-lg object-cover"
       />
@@ -171,15 +171,15 @@ import { ref } from 'vue'
 const showCalendlyModal = ref(false)
 
 const imagenes = [
-  '/laundry/laund1.png',
-  '/laundry/laund2.jpg',
-  '/laundry/laund3.jpg',
-  '/laundry/laund4.jpg',
-  '/laundry/laund5.jpg',
-  '/laundry/laund6.jpg',
-  '/laundry/laund7.jpg',
-  '/laundry/laund8.jpg',
-  '/laundry/laund9.png',
+  '/laundry_webp/laund1.webp',
+  '/laundry_webp/laund2.webp',
+  '/laundry_webp/laund3.webp',
+  '/laundry_webp/laund4.webp',
+  '/laundry_webp/laund5.webp',
+  '/laundry_webp/laund6.webp',
+  '/laundry_webp/laund7.webp',
+  '/laundry_webp/laund8.webp',
+  '/laundry_webp/laund9.webp',
 ]
 
 </script>
